@@ -30,19 +30,20 @@ HTTP请求消息包含『对什么』和『进行怎样的操作』两个部分�
    - CGI程序：对web服务器程序调用其他程序的规则所做的定义就是CGI，安装这个规则来工作的程序就是CGI程序。
    - CGI程序使网页具有交互功能。
 1. 生成HTTP请求消息  
+   以下是一个传递数据  
    HTTP 请求消息
    ```http
-   GET /hello.txt HTTP/1.1
+   GET /hello.html HTTP/1.1
    User-Agent: curl/7.16.3 libcurl/7.16.3 OpenSSL/0.9.7l zlib/1.2.3
-   Host: www.example.com
+   Host: http://139.224.67.191:8080
    Accept-Language: en, mi
    ```
    HTTP 响应消息
    ```http
    HTTP/1.1 200 OK
-   Date: Mon, 27 Jul 2009 12:28:53 GMT
+   Date: Thu, 10 Mar 2022 18:45:56 GMT
    Server: Apache
-   Last-Modified: Wed, 22 Jul 2009 19:15:56 GMT
+   Last-Modified: Thu, 10 Mar 2021 18:45:56 GMT
    ETag: "34aa387-d-1568eb00"
    Accept-Ranges: bytes
    Content-Length: 51
