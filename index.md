@@ -11,10 +11,14 @@
 - 协议：通信操作的规则定义称为协议（protocol）  
 
 1. 浏览器对URL进行解析  
-https:// ***github.com*** */pages-themes/cayman/blob/master/* index.md  
+https:// ***dan-k391.github.io*** */theinternet/* index.html  
 在这个URL中：
    - https 是协议
-   - github.com 是web服务器名
-   - /pages-themes/cayman/blob/master/ 是目录名
-   - index.md 是文件名
-  
+   - dan-k391.github.io 是web服务器名
+   - /theinternet/ 是目录名
+   - index.html 是文件名
+2. 有时URL会省略文件名  
+https://dan-k391.github.io/theinternet/ 省略了访问文件名， 就会访问默认文件，也就是index.html或default.htm  
+https://www.baidu.com 只有服务器名，没有路径时就会访问根目录下事先设置的默认文件，也就是index.html或default.htm  
+
+
