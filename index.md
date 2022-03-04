@@ -1,37 +1,20 @@
-## Welcome to GitHub Pages
+# __The Internet__
 
-You can use the [editor on GitHub](https://github.com/Dan-k391/theinternet/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+打开浏览器，输入网站的网址，就可以访问到网站。这其中不到一秒的时间，发生了一系列操作。  
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+输入网址之后，发生了这些事：
+1. 生成HTTP请求消息
+2. 
 
-### Markdown
+## 生成HTTP请求消息
+- HTTP: Hypertext Transfer Protocol 超文本传输协议
+- 协议：通信操作的规则定义称为协议（protocol）  
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Dan-k391/theinternet/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+1. 浏览器对URL进行解析  
+https:// ***github.com*** */pages-themes/cayman/blob/master/* index.md  
+在这个URL中：
+   - https 是协议
+   - github.com 是web服务器名
+   - /pages-themes/cayman/blob/master/ 是目录名
+   - index.md 是文件名
+  
