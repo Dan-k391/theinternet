@@ -35,7 +35,7 @@ HTTP请求消息包含『对什么』和『进行怎样的操作』两个部分�
    ```http
    GET /hello.html HTTP/1.1
    User-Agent: curl/7.16.3 libcurl/7.16.3 OpenSSL/0.9.7l zlib/1.2.3
-   Host: http://139.224.67.191:8080
+   Host: http://43.154.73.126
    Accept-Language: en, mi
    ```
    HTTP 响应消息
