@@ -4,9 +4,11 @@
 
 输入网址之后，并按下回车键之后，在我们看来短暂的一瞬间，发生了这些事：
 1. 生成HTTP请求消息
-2. 
+2. 向DNS服务器查询Web服务器的ip地址
+3. 
 
 ## 生成HTTP请求消息
+- URL Uniform Resource Locator 统一资源定位符 (其实就是网址)
 - HTTP: Hypertext Transfer Protocol 超文本传输协议
 - 协议：通信操作的规则定义称为协议（protocol）  
 
@@ -20,7 +22,7 @@ https:// ***dan-k391.github.io*** */theinternet/* index.html
 2. 有时URL会省略文件名  
 https://dan-k391.github.io/theinternet/ 省略了访问文件名， 就会访问默认文件，也就是index.html或default.htm。  
 https://www.baidu.com 只有服务器名，没有路径时就会访问根目录下事先设置的默认文件，也就是index.html或default.htm。  
-3. 关于http  
+1. 关于http  
 HTTP请求消息包含『对什么』和『进行怎样的操作』两个部分。
 其中相当于『对什么』的部分称为URI。  
 一般来说URI的内容是一个存放网页的文件名或者是一个CGI程序的文件名，例如"/dir/file.html"、"/dir/program.cgi"等。  
@@ -29,7 +31,11 @@ HTTP请求消息包含『对什么』和『进行怎样的操作』两个部分�
    - URI: Uniform Resource Identifier 统一资源标识符
    - CGI程序：对web服务器程序调用其他程序的规则所做的定义就是CGI，安装这个规则来工作的程序就是CGI程序。
    - CGI程序使网页具有交互功能。
-1. 生成HTTP请求消息  
+4. 生成HTTP请求消息  
+   HTTP的主要方法
+      - GET 获取URI的指定信息
+      - POST 从客户端向服务端发送数据
+
    以下是一个传递数据  
    HTTP 请求消息
    ```http
@@ -50,5 +56,29 @@ HTTP请求消息包含『对什么』和『进行怎样的操作』两个部分�
    Vary: Accept-Encoding
    Content-Type: text/plain
    ```
+## 向DNS服务器查询Web服务器的IP地址
+1. TCP/IP 网络  
+   TCP/IP的结构就是由一些小的子网，通过路由器连接起来组成一个大的网络
+2. IP地址  
+   IP地址就相当于现实中一条街上的“XX号XX室”  
+   其中"号"对应的号码是分配给整个子网的，而"室"对应的号码是分配给子网中的计算机的
+3. IP地址的结构  
+   ```
+   10.20.
+   ```
+4. 域名解析  
+   通过socket库向DNS服务器发出查询  
+   socket库就是用于调用网络功能的程序组件集合  
+   通过DNS查询IP地址的过程叫做域名解析  
+   
+   以下是简单的python DNS解析器
+   ```python
+   import socket
+
+   if __name__ == '__main__':
+      ip = socket.gethostbyname('dan-k391.github.io')
+      print(ip)
+   ```
+
 
 
