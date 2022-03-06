@@ -80,6 +80,7 @@ HTTP请求消息包含『对什么』和『进行怎样的操作』两个部分�
       ip = socket.gethostbyname('dan-k391.github.io')
       print(ip)
    ```
-![win10 DNS配置](http://43.154.73.126/DNS.png)
+5. 获取DNS的IP地址  
+   ![win10 DNS配置](http://43.154.73.126/DNS.png)
 
 
