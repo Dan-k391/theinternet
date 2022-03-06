@@ -81,6 +81,6 @@ HTTP请求消息包含『对什么』和『进行怎样的操作』两个部分�
       print(ip)
    ```
 5. 获取DNS的IP地址  
-   ![win10 DNS配置](http://139.224.67.191:8080/DNS.png)
+   ![win10 DNS配置](https://github.com/Dan-k391/theinternet/blob/gh-pages/DNS.png)
 
 
