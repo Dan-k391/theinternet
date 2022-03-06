@@ -56,6 +56,7 @@ HTTP请求消息包含『对什么』和『进行怎样的操作』两个部分�
    Vary: Accept-Encoding
    Content-Type: text/plain
    ```
+
 ## 向DNS服务器查询Web服务器的IP地址
 1. TCP/IP 网络  
    TCP/IP的结构就是由一些小的子网，通过路由器连接起来组成一个大的网络
@@ -70,7 +71,7 @@ HTTP请求消息包含『对什么』和『进行怎样的操作』两个部分�
    通过socket库向DNS服务器发出查询  
    socket库就是用于调用网络功能的程序组件集合  
    通过DNS查询IP地址的过程叫做域名解析  
-   
+
    以下是简单的python DNS解析器
    ```python
    import socket
@@ -79,6 +80,6 @@ HTTP请求消息包含『对什么』和『进行怎样的操作』两个部分�
       ip = socket.gethostbyname('dan-k391.github.io')
       print(ip)
    ```
-
+![win10 DNS配置](http://43.154.73.126/DNS.png)
 
 
