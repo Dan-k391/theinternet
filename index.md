@@ -127,7 +127,8 @@ if __name__ == '__main__':
       print(ip)
    ```
 5. 获取DNS服务器的IP地址  
-   ![win10 DNS配置](DNS.png)
+   ![假如说显示不出来就点下面的链接](http://ulweb.club:8080/DNS.png)
+   <a href="http://ulweb.club:8080/DNS.png"></a>
 
 ## 浏览器根据返回IP建立TCP连接
 - 著名的三次握手
