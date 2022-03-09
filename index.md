@@ -2,18 +2,20 @@
 HTML: 是一种用于创建网页的标准标记语言
 ```html
 <!DOCTYPE html>
-<html>
-   <head>
-      <meta charset="UTF-8">
-      <title>页面标题</title>
-   </head>
-   <body>
-      <h1>我的第一个标题</h1>
-      <p>我的第一个段落。</p>
-   </body>
+<html lang="en">
+<head>
+    <meta charset="gbk">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>标题</title>
+</head>
+<body>
+    <h1>我的第一个标题</h1>
+    <p>我的第一个段落。</p>
+</body>
 </html>
 ```
-<a href="http://ulweb.club:8080/1.html">程序下载</a>
+<a href="http://ulweb.club:8080/1.html">上述程序下载</a>
 
 # __The Internet__
 
