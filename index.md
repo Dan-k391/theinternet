@@ -11,7 +11,7 @@ HTML: 是一种用于创建网页的标准标记语言
 </head>
 <body>
     <h1>我的第一个标题</h1>
-    <p>我的第一个段落。</p>
+    <p>我的第一个段落</p>
 </body>
 </html>
 ```
@@ -127,8 +127,15 @@ if __name__ == '__main__':
       print(ip)
    ```
 5. 获取DNS服务器的IP地址  
-   ![win10 DNS配置](DNS.png))
+   ![win10 DNS配置](DNS.png)
 
+## 浏览器根据返回IP建立TCP连接
+- 著名的三次握手
+1. 客户端向服务器发送一个SYN J
+2. 服务器向客户端响应一个SYN K，并对SYN J进行确认ACK J+1
+3. 客户端再向服务器发一个确认ACK K+1  
+   ![假如说显示不出来就点下面的链接](http://ulweb.club:8080/TCP.png)
+   <a href="http://ulweb.club:8080/TCP.png"></a>
 
 ## 发送HTTP请求消息
 - URL: Uniform Resource Locator 统一资源定位符 (其实就是网址)
@@ -168,26 +175,33 @@ if __name__ == '__main__':
    ```
 
 ## 接受HTTP响应消息
-   HTTP 响应消息
-   ```http
-   HTTP/1.1 200 OK
-   Date: Thu, 10 Mar 2022 18:45:56 GMT
-   Server: Apache
-   Last-Modified: Thu, 10 Mar 2021 18:45:56 GMT
-   ETag: "34aa387-d-1568eb00"
-   Accept-Ranges: bytes
-   Content-Length: 51
-   Vary: Accept-Encoding
-   Content-Type: text/plain
-   
-   <html>
-   .....
-   </html>
-   ```
+HTTP 响应消息
+```http
+HTTP/1.1 200 OK
+Date: Thu, 10 Mar 2022 18:45:56 GMT
+Server: Apache
+Last-Modified: Thu, 10 Mar 2021 18:45:56 GMT
+ETag: "34aa387-d-1568eb00"
+Accept-Ranges: bytes
+Content-Length: 51
+Vary: Accept-Encoding
+Content-Type: text/plain
+
+<html>
+.....
+</html>
+```
 
 ## 浏览器解析响应消息并显示网页
-
-
 ## 收发结束，释放连接
+这两步就不赘述了 (
+
+# HTML基础
+```html
+<h1>这是一个标题</h1>
+<h2>这是一个标题</h2>
+<h3>这是一个标题</h3>
+```
+
 
 
