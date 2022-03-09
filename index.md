@@ -217,11 +217,24 @@ Content-Type: text/plain
 
 ## HTML属性
 
-属性 | 描述  
-class | 为html元素定义一个或多个类名（classname）(类名从样式文件引入)  
-id | 定义元素的唯一id  
-style | 规定元素的行内样式(inline style)  
-title | 描述了元素的额外信息 (作为工具条使用)  
+<table>
+   <tr>
+      <th>属性</th>
+      <th>描述</th>
+   </tr>
+   <tr>
+      <th>class</th>
+      <th>为html元素定义一个或多个类名（classname）(类名从样式文件引入)</th>
+   </tr>
+   <tr>
+      <th>style</th>
+      <th>规定元素的行内样式(inline style)</th>
+   </tr>
+   <tr>
+      <th>title</th>
+      <th>描述了元素的额外信息 (作为工具条使用)</th>
+   </tr>
+</table>
 ```html
 
 ```
