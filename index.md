@@ -136,7 +136,8 @@ if __name__ == '__main__':
 2. 服务器向客户端响应一个SYN K，并对SYN J进行确认ACK J+1
 3. 客户端再向服务器发一个确认ACK K+1  
    ![假如说显示不出来就点下面的链接](http://ulweb.club:8080/TCP.png)  
-   <a href="http://ulweb.club:8080/TCP.png">假如说显示不出来就点我</a>
+   <a href="http://ulweb.club:8080/TCP.png">假如说显示不出来就点我</a>  
+
 
 ## 发送HTTP请求消息
 - URL: Uniform Resource Locator 统一资源定位符 (其实就是网址)
@@ -198,11 +199,33 @@ Content-Type: text/plain
 这两步就不赘述了 (
 
 # HTML基础
+## 前置插件，方便写
+- live server
+- live sass compiler
+
+
+## HTML基础元素
 ```html
 <h1>这是一个标题</h1>
 <h2>这是一个标题</h2>
 <h3>这是一个标题</h3>
+<p>这是一个段落。</p>
+<p>这是另外一个段落。</p>
+<a href="https://www.baidu.com">这是一个链接</a>
 ```
+<a href="http://ulweb.club:8080/2.html">上述程序演示</a>
+
+## HTML属性
+
+属性|描述
+class|为html元素定义一个或多个类名（classname）(类名从样式文件引入)  
+id|定义元素的唯一id  
+style|规定元素的行内样式(inline style)  
+title|描述了元素的额外信息 (作为工具条使用)  
+```html
+
+```
+
 
 
 
