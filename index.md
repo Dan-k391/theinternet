@@ -217,7 +217,7 @@ Content-Type: text/plain
 
 ## HTML属性
 
-属性|描述
+属性|描述  
 class|为html元素定义一个或多个类名（classname）(类名从样式文件引入)  
 id|定义元素的唯一id  
 style|规定元素的行内样式(inline style)  
