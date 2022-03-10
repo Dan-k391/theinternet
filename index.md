@@ -1,4 +1,9 @@
 # 网页制作
+
+## 请先下载vscode和python
+<a href="https://code.visualstudio.com/">vscode官网</a>
+<a href="https://www.python.org/">python官网</a>
+
 HTML: 是一种用于创建网页的标准标记语言
 ```html
 <!DOCTYPE html>
@@ -221,6 +226,10 @@ Content-Type: text/plain
    <tr>
       <th>属性</th>
       <th>描述</th>
+   </tr>
+      <tr>
+      <th>id</th>
+      <th>定义元素的唯一id</th>
    </tr>
    <tr>
       <th>class</th>
