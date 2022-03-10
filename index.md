@@ -1,7 +1,7 @@
 # 网页制作
 
 ## 请先下载vscode和python
-<a href="https://code.visualstudio.com/">vscode官网</a>
+<a href="https://code.visualstudio.com/">vscode官网</a>  
 <a href="https://www.python.org/">python官网</a>
 
 HTML: 是一种用于创建网页的标准标记语言
