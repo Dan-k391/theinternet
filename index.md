@@ -204,6 +204,10 @@ Content-Type: text/plain
 这两步就不赘述了 (
 
 # HTML基础
+
+## 假如说各位还没有下载vscode就可以去菜鸟教程的在线编辑器
+<a href="https://c.runoob.com/front-end/61/">菜鸟教程在线编辑器</a>
+
 ## 前置插件，方便写
 - live server
 - live sass compiler
@@ -211,14 +215,17 @@ Content-Type: text/plain
 
 ## HTML基础元素
 ```html
-<h1>这是一个标题</h1>
-<h2>这是一个标题</h2>
-<h3>这是一个标题</h3>
-<p>这是一个段落。</p>
-<p>这是另外一个段落。</p>
-<a href="https://www.baidu.com">这是一个链接</a>
-```
-<a href="http://ulweb.club:8080/2.html">上述程序演示</a>
+<body>
+   <h1>这是一个标题</h1>
+   <h2>这是一个标题</h2>
+   <h3>这是一个标题</h3>
+   <p>这是一个段落。</p>
+   <p>这是另外一个段落。</p>
+   <a href="https://www.baidu.com">这是一个链接</a>
+   <!-- 这是一个注释 -->
+   ```
+   <a href="http://ulweb.club:8080/2.html">上述程序演示</a>
+</body>
 
 ## HTML属性
 
@@ -244,9 +251,55 @@ Content-Type: text/plain
       <th>描述了元素的额外信息 (作为工具条使用)</th>
    </tr>
 </table>
-```html
 
+```html
+<p id="msg">Hello</p>
 ```
+
+## HTML 样式-CSS
+```html
+<body style="background-color: yellow;">
+   <h2 style="background-color: red;">这是一个标题</h2>
+   <p style="background-color: green;">这是一个段落。</p>
+   <h1 style="font-family: verdana;">一个标题</h1>
+   <p style="font-family: arial; color: red; font-size: 20px;">一个段落。</p>
+</body>
+```
+<a href="http://ulweb.club:8080/3.html">上述程序演示</a>
+
+
+```html
+<head>
+   <style type="text/css">
+      #t1{
+         background-color: red;
+      }
+      #p1{
+         background-color: green;
+      }
+      #t2{
+         font-family: verdana;
+      }
+      #p2{
+         font-family: arial;
+         color: red;
+         font-size: 20px;
+      }
+   </style>
+</head>
+<body style="background-color:yellow;">
+   <h2 id="t1">这是一个标题</h2>
+   <p id="p1">这是一个段落。</p>
+   <h1 id="t2">一个标题</h1>
+   <p id="p2">一个段落。</p>
+</body>
+```
+这一段代码和上面一段代码效果相同
+
+## Javascript
+
+
+## 简单的Flask程序
 
 
 
