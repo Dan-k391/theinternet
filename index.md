@@ -136,6 +136,7 @@ if __name__ == '__main__':
    <a href="http://43.154.73.126:8080/DNS.png">假如说显示不出来就点我</a>
 
 ## 浏览器根据返回IP建立TCP连接
+- TCP: Transmission Control Protocol
 - 著名的三次握手
 1. 客户端向服务器发送一个SYN J
 2. 服务器向客户端响应一个SYN K，并对SYN J进行确认ACK J+1
