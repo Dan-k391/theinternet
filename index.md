@@ -133,7 +133,7 @@ if __name__ == '__main__':
    ```
 5. 获取DNS服务器的IP地址  
    ![假如说显示不出来就点下面的链接](http://ulweb.club:8080/DNS.png)  
-   <a href="http://ulweb.club:8080/DNS.png">假如说显示不出来就点我</a>
+   <a href="http://43.154.73.126:8080/DNS.png">假如说显示不出来就点我</a>
 
 ## 浏览器根据返回IP建立TCP连接
 - 著名的三次握手
@@ -141,7 +141,7 @@ if __name__ == '__main__':
 2. 服务器向客户端响应一个SYN K，并对SYN J进行确认ACK J+1
 3. 客户端再向服务器发一个确认ACK K+1  
    ![假如说显示不出来就点下面的链接](http://ulweb.club:8080/TCP.png)  
-   <a href="http://ulweb.club:8080/TCP.png">假如说显示不出来就点我</a>  
+   <a href="http://43.154.73.126:8080/TCP.png">假如说显示不出来就点我</a>  
 
 
 ## 发送HTTP请求消息
